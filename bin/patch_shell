@@ -27,6 +27,7 @@ patch_rc_file()
       echo "" >> $RC_FILE
       echo "" >> $RC_FILE
       echo "# ca2 patch_shell" >> $RC_FILE
+      echo "export GPG_TTY=\$(tty)"
       echo "" >> $RC_FILE
       echo "" >> $RC_FILE
       echo "PATH=\$HOME/cmake/operating_system/tool-freebsd/bin:\$HOME/bin:\$PATH" >> $RC_FILE
