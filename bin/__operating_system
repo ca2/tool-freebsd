@@ -1,0 +1,10 @@
+#!/usr/bin/env sh
+
+
+ARCHITECTURE=`eval uname -m`
+
+
+__operating_system_$ARCHITECTURE "$@"
+
+
+

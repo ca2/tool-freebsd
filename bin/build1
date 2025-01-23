@@ -1,0 +1,20 @@
+#!/bin/sh
+
+
+
+ninja -j 6 "$@"
+
+
+
+if [ $? -eq 0 ]; then
+
+    aplay -q "/home/camilo/dropbox/box/audio/sysevent/cpp_good_build.wav" &
+
+else
+
+    aplay -q "/home/camilo/dropbox/box/audio/sysevent/cpp_build_failed.wav" &
+
+fi
+
+
+
