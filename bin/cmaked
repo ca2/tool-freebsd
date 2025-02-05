@@ -1,5 +1,5 @@
 #!/bin/sh
 
-cmake -B . -S .. -G Ninja
+cmake -B . -S .. -G Ninja -DCMAKE_BUILD_TYPE=Debug
 
 
