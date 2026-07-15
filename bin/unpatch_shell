@@ -1,7 +1,8 @@
 #!/bin/sh
 
+ARCHITECTURE=`eval uname -m`
 
-application_build_helper --unpatch-shell
+$HOME/code/operating_system/tool/bin/$ARCHITECTURE/application_build_helper --unpatch-shell
 
 
 

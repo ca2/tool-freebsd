@@ -1,7 +1,7 @@
 
 . $HOME/code/operating_system/tool/bin/defer_ssh_agent
 
-. $HOME/application/integration/code/.ambient
+. $HOME/application/integration/code/.operating_system_summary
 
 export __SYSTEM
 export __SYSTEM_FAMILY
